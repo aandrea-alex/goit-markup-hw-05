@@ -542,8 +542,10 @@ img {
 .footer-social-link:focus {
   background-color: var(--green);
 }
+
 /* Modal window */
-MODAL WINDOW */ .modal-backdrop {
+
+.modal-backdrop {
   position: fixed;
   top: 0;
   left: 0;
