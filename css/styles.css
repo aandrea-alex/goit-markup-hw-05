@@ -569,12 +569,12 @@ img {
   width: 264px;
   height: 40px;
   font-size: 12px;
-  line-height: 1.5;
+  line-height: 2;
   letter-spacing: 0.04em;
   padding-left: 16px;
   border-radius: 4px;
   border: 1px solid var(--white);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .subscribe-input-email::placeholder {
@@ -701,6 +701,7 @@ img {
   color: var(--navyblue);
   text-align: center;
   width: 100%;
+  color: var(--navy-blue);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -715,7 +716,7 @@ img {
 .input-label {
   outline: none;
   display: block;
-  color: var(--lightslate);
+  color: var(--light-slate);
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -784,7 +785,7 @@ img {
 }
 
 .input-textarea::placeholder {
-  color: var(--lightslate);
+  color: var(--light-slate);
 }
 
 .input-textarea:focus-within {
@@ -796,7 +797,7 @@ img {
 }
 
 .checkbox-label {
-  color: var(--lightslate);
+  color: var(--light-slate);
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
